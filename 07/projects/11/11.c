@@ -6,7 +6,7 @@ int main(void) {
 
     printf("Enter a first and last name: ");
     scanf(" %c", &initial);
-    
+    //消掉空格
     while ((c = getchar()) != ' ')
         ;
 
